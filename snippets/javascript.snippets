@@ -1,4 +1,4 @@
-snip rcc
+snippet rcc
 	import React, {Component, PropTypes} from 'react';
 	
 	export default class ${1} extends Component {
@@ -13,49 +13,49 @@ snip rcc
 	
 	}
 
-snip ipt
+snippet ipt
 	ImmutablePropTypes.${1}
 
-snip cx
+snippet cx
 	const classes = classNames({
 		[${1}]: ${2}
 	});
 
-snip iipt
+snippet iipt
 	import ImmutablePropTypes from 'react-immutable-proptypes';
 
-snip icx
+snippet icx
 	import classNames from 'classnames';
 
-snip cdm
+snippet cdm
 	componentWillMount() {
 		${1}
 	}
 
-snip cdm
+snippet cdm
 	componentDidMount() {
 		${1}
 	}
 
-snip cwu
+snippet cwu
 	componentWillUpdate(nextProps, nextState) {
 		${1}
 	}
 
-snip cdu
+snippet cdu
 	componentDidUpdate(prevProps, prevState) {
 		${1}
 	}
 
-snip scu
+snippet scu
 	shouldComponentUpdate(nextProps, nextState) {
 		${1}
 	}
 
-snip cwun
+snippet cwun
 	componentWillUnmount() {
 		${1}
 	}
 
-snip pt
+snippet pt
 	PropTypes.${1}
