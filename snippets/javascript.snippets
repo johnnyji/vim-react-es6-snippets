@@ -1,0 +1,61 @@
+snip rcc
+	import React, {Component, PropTypes} from 'react';
+	
+	export default class ${1} extends Component {
+
+		static displayName = displayName;
+		
+		render() {
+			return (
+				<div></div>
+			);
+		}
+	
+	}
+
+snip ipt
+	ImmutablePropTypes.${1}
+
+snip cx
+	const classes = classNames({
+		[${1}]: ${2}
+	});
+
+snip iipt
+	import ImmutablePropTypes from 'react-immutable-proptypes';
+
+snip icx
+	import classNames from 'classnames';
+
+snip cdm
+	componentWillMount() {
+		${1}
+	}
+
+snip cdm
+	componentDidMount() {
+		${1}
+	}
+
+snip cwu
+	componentWillUpdate(nextProps, nextState) {
+		${1}
+	}
+
+snip cdu
+	componentDidUpdate(prevProps, prevState) {
+		${1}
+	}
+
+snip scu
+	shouldComponentUpdate(nextProps, nextState) {
+		${1}
+	}
+
+snip cwun
+	componentWillUnmount() {
+		${1}
+	}
+
+snip pt
+	PropTypes.${1}
