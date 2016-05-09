@@ -1,15 +1,36 @@
+snippet rncc
+	import React, {Component, PropTypes} from 'react';
+	import {StyleSheet, View} from 'react-native';
+
+	const styles = StyleSheet.create({
+		main: {}
+	});
+
+	export default class ${1} extends Component {
+		
+		static displayName = ${1};
+
+		render() {
+			return (
+				<View style={styles.main}>
+				</View>
+			);
+		}
+	}
+
 snippet rcc
 	import React, {Component, PropTypes} from 'react';
 
-	const displayName = ${1};
+	const CLS = ${1};
 
 	export default class ${2} extends Component {
 
-		static displayName = displayName;
+		static displayName = CLS;
 		
 		render() {
 			return (
-				<div></div>
+				<div className={CLS}>
+				</div>
 			);
 		}
 	
